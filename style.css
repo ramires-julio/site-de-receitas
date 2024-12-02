@@ -1,0 +1,125 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout Básico */
+body {
+  background-color: #e7f1fb;
+  color: #7A5EA5;
+  font-family: 'Edu AU VIC WA NT Pre', sans-serif;
+}
+
+header {
+  padding: 15px;
+  background: radial-gradient(circle, #A3D977, #88C770);
+  color: #3E704C;
+}
+
+header .logo {
+  max-width: 200px; /* Ajusta a largura máxima */
+  height: auto; /* Mantém a proporção */
+  text-align: left;
+}
+
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Receitas em Destaque */
+.receitas-destaque h2 {
+  font-size: 1.5rem;
+  color: #ed8a00;
+  margin-bottom: 10px;
+}
+
+.destaque-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.card {
+  background-color: #FAF3E0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 2px solid #A3D977; /* Borda sólida com espessura de 2px e cor verde */
+  border-radius: 10px; /* Deixa os cantos arredondados */
+  text-align: center;
+  padding: 15px;
+  width: 220px;
+  flex: 0 0 auto;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.card p {
+  color: #000000;
+  font-size: 0.9rem;
+}
+
+/* Outras Receitas */
+.outras-receitas h2 {
+  font-size: 1.5rem;
+  color: #ed8a00;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.card-horizontal {
+  display: flex;
+  align-items: center;
+  background-color: #F5F5DC;
+  border: 2px solid #A3D977; /* Borda sólida com espessura de 2px e cor verde */
+  border-radius: 10px; /* Deixa os cantos arredondados */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card-horizontal img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.card-horizontal h3 {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
